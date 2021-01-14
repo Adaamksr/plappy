@@ -60,10 +60,17 @@
     <Compile Include="Huisarts.cs" />
     <Compile Include="Inloggegevens.cs" />
     <Compile Include="Inschrijving.cs" />
+    <Compile Include="LoginPagina.xaml.cs">
+      <DependentUpon>LoginPagina.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Speelmoment.cs" />
     <Compile Include="Speelmomenttype.cs" />
     <Compile Include="Spelerscategorie.cs" />
     <Compile Include="Sporthal.cs" />
+    <Page Include="LoginPagina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
