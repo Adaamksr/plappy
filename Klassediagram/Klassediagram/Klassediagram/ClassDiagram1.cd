@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Klassediagram.Person">
-    <Position X="6.5" Y="0.75" Width="2" />
+    <Position X="6.75" Y="0.75" Width="2" />
     <TypeIdentifier>
       <HashCode>ACoYCAAAAAAAABAgAxEAAAEAFISAiACAgAAIggIAECA=</HashCode>
       <FileName>Person.cs</FileName>
@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Klassediagram.Geslacht">
-    <Position X="1.75" Y="4" Width="1.5" />
+    <Position X="1.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAAAAAAIAAAAAAAAQAAACAAAAAAAAAAAA=</HashCode>
       <FileName>Geslacht.cs</FileName>
@@ -57,7 +57,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Klassediagram.Bestuursrol">
-    <Position X="1.75" Y="1" Width="1.5" />
+    <Position X="1.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACgAAAAAAAAAAAgAACAAAAAAAAAACA=</HashCode>
       <FileName>Bestuursrol.cs</FileName>
