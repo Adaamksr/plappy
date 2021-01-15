@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\annel\iCloudDrive\Syntra\Software Developer\Groepswerk module 3\plappy\Klassediagram\Klassediagram\Klassediagram\obj\Debug\
+=======
+D:\Adam\School\SoftwareDeveloper\plappy\Klassediagram\Klassediagram\Klassediagram\obj\Debug\
+>>>>>>> da68cbe6ec6f041a09dedde8eea1062e23ea671e
 Klassediagram
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\annel\iCloudDrive\Syntra\Software Developer\Groepswerk module 3\plappy\Klassediagram\Klassediagram\Klassediagram\App.xaml
+=======
+D:\Adam\School\SoftwareDeveloper\plappy\Klassediagram\Klassediagram\Klassediagram\App.xaml
+>>>>>>> da68cbe6ec6f041a09dedde8eea1062e23ea671e
 2979214877
 
 17-1648322857
