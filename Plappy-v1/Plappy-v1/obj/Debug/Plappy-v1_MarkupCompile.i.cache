@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Plappy-v1
 
 
@@ -18,3 +19,25 @@ aanwezigheden.xaml;coronaalert.xaml;kalender.xaml;leden.xaml;login.xaml;MainWind
 
 True
 
+=======
+﻿Plappy-v1
+
+
+winexe
+C#
+.cs
+C:\Users\annel\iCloudDrive\Syntra\Software Developer\Groepswerk module 3\plappy\Plappy-v1\Plappy-v1\obj\Debug\
+Plappy_v1
+none
+false
+DEBUG;TRACE
+C:\Users\annel\iCloudDrive\Syntra\Software Developer\Groepswerk module 3\plappy\Plappy-v1\Plappy-v1\View\App.xaml
+1-1711142684
+
+8-961751665
+13-1505183044
+View\MainWindow.xaml;
+
+False
+
+>>>>>>> fac69170bb7da4c553a371131dd0e57c0eb94f6d
