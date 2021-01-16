@@ -3,10 +3,38 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Plappy_v1"
+        xmlns:local="clr-namespace:Plappy_v1" 
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Viewbox >
+        <Grid Margin="4">
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="90" Margin="3,-2,0,0" VerticalAlignment="Top" Width="273"  MouseLeftButtonDown="Btn_Aanwezig"/>
+            <Label x:Name="Aanwezigheden" Content="Aanwezigheden" HorizontalAlignment="Left" Margin="8,60,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="26" Width="117"/>
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="89" Margin="3,92,0,0" VerticalAlignment="Top" Width="88"  MouseLeftButtonDown="Btn_Leden"/>
+            <Label x:Name="Leden" Content="Leden" HorizontalAlignment="Left" Margin="7,158,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="23" Width="64"/>
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="89" Margin="95,92,0,0" VerticalAlignment="Top" Width="90"  MouseLeftButtonDown="Btn_Speelmoment"/>
+            <Label x:Name="Speelmomenten" Content="Speelmomenten" HorizontalAlignment="Left" FontSize="11" Margin="92,155,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="26" Width="95"/>
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="89" Margin="189,92,0,0" VerticalAlignment="Top" Width="88"  MouseLeftButtonDown="Btn_sporthal"/>
+            <Label x:Name="Sporthallen" Content="Sporthallen" HorizontalAlignment="Left" Margin="192,155,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="26" Width="79"/>
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="89" Margin="3,185,0,0" VerticalAlignment="Top" Width="273"  MouseLeftButtonDown="Btn_Statistieken"/>
+            <Label x:Name="Statistieken" Content="Statistieken" HorizontalAlignment="Left" Margin="7,248,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="26" Width="114"/>
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="90" Margin="280,-2,0,0" VerticalAlignment="Top" Width="273"  MouseLeftButtonDown="Btn_CoronaAlert"/>
+            <Label x:Name="CoronaAlert" Content="Corona-Alert" HorizontalAlignment="Left" Margin="286,60,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="26" Width="114"/>
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="182" Margin="281,92,0,0" VerticalAlignment="Top" Width="179"  MouseLeftButtonDown="Btn_Kalender"/>
+            <Label x:Name="Kalender" Content="Kalender" HorizontalAlignment="Left" Margin="286,248,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="26" Width="79"/>
+
+            <Rectangle Fill="#f29f05" HorizontalAlignment="Left" Height="89" Margin="465,92,0,0" VerticalAlignment="Top" Width="88" MouseLeftButtonDown="Btn_Profiel"/>
+            <Label x:Name="Profiel" Content="Profiel" HorizontalAlignment="Left" Margin="466,158,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="23" Width="68"/>
+
+            <Rectangle x:Name="RectUitloggen" Fill="#f29f05" HorizontalAlignment="Left" Height="89" Margin="465,185,0,0" VerticalAlignment="Top" Width="88" MouseLeftButtonDown="Btn_Uitloggen"/>
+            <Label x:Name="Uitloggen" Content="Uitloggen" HorizontalAlignment="Left" Margin="466,248,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Height="26" Width="73"/>
+        </Grid>
+    </Viewbox>
 </Window>
